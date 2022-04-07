@@ -125,10 +125,29 @@ h1:nth-child(3){
      text-align: center;
      color: rgb(213, 212, 212);
  }
-  
 
 .logo{
     color: white;
+}
+
+@media (min-width: 320px) and (max-width: 739px){
+    body{
+    background-image: url(/Carimar__Kouums/public/img/bg.jpg);
+    background-size: cover;
+    }
+    body h1{
+        font-size: 15px;
+    }
+    .FirstSquare{
+        font-size: 10px;
+    }
+    .ThirdSquare{
+        display: block;
+        font-size: 10px;
+        padding-top: 0;
+        padding-top: 0;
+    }
+    
 }
 
 
